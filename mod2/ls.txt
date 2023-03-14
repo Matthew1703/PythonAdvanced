@@ -1,0 +1,5 @@
+total 36
+-rw-rw-r-- 1 matthew1703 matthew1703   516 Mar  9 01:15 1.py
+-rw-rw-r-- 1 matthew1703 matthew1703   412 Mar  9 19:36 2.py
+-rw-rw-r-- 1 matthew1703 matthew1703   216 Mar  9 19:38 ls.txt
+-rw-rw-r-- 1 matthew1703 matthew1703 25823 Mar  8 16:01 output_file.txt
