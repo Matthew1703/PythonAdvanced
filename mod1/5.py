@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route('/get_time/future')
 def get_time():
-    return f"Точное время через час будет {datetime.datetime.now() + datetime.timedelta(hours=1)}"
+    time_after_hour = datetime.datetime.now() + datetime.timedelta(hours=1)
+    return f"Точное время через час будет {time_after_hour}"
 
 if __name__ == "__main__":
-    app.run(port=5555, debug=True)
+    app.run(debug=True)
