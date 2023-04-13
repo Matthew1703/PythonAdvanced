@@ -1,0 +1,25 @@
+01:56:02 - INFO - Вы пытаетесь аутентифицироваться
+01:56:02 - INFO - У вас 3 попыток
+01:56:05 - ERROR - Пользователь трижды ввел неправильный пароль!
+01:56:23 - INFO - Вы пытаетесь аутентифицироваться
+01:56:23 - INFO - У вас 3 попыток
+01:56:24 - WARNING - Вы ввели пустой пароль!
+01:56:29 - ERROR - Пользователь трижды ввел неправильный пароль!
+01:56:58 - INFO - Вы пытаетесь аутентифицироваться
+01:56:58 - INFO - У вас 3 попыток
+01:56:59 - WARNING - Вы ввели пустой пароль!
+01:57:04 - ERROR - Пользователь трижды ввел неправильный пароль!
+01:57:52 - INFO - Вы пытаетесь аутентифицироваться
+01:57:52 - INFO - У вас 3 попыток
+01:57:53 - ERROR - Вы ввели некорректный символ
+Traceback (most recent call last):
+  File "/home/matthew1703/Desktop/PythonAdvanced/mod6/1.py", line 13, in input_and_check_password
+    hasher.update(password.encode("latin-1"))
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 0-1: ordinal not in range(256)
+01:57:55 - ERROR - Вы ввели некорректный символ
+Traceback (most recent call last):
+  File "/home/matthew1703/Desktop/PythonAdvanced/mod6/1.py", line 13, in input_and_check_password
+    hasher.update(password.encode("latin-1"))
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u043a' in position 0: ordinal not in range(256)
+01:57:55 - WARNING - Вы ввели пустой пароль!
+01:57:55 - ERROR - Пользователь трижды ввел неправильный пароль!
