@@ -1,5 +1,5 @@
 import re
-english_words = ['hello', 'good', 'cats', 'dogs']
+english_words = ['hello', 'good', 'cats', 'dogs', 'query', 'dirty']
 def is_strong_password(password: str):
     password = password.lower()
     result = re.findall("\D{4,}", password)
