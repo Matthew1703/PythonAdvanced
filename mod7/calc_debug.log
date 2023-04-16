@@ -1,0 +1,3 @@
+DEBUG | app | 2023-04-17 02:33:36,700 | 20 | Start endpoint /division, args: 5.0, 2.0
+DEBUG | app | 2023-04-17 02:33:51,465 | 20 | Start endpoint /division, args: 5.0, 2.0
+DEBUG | app | 2023-04-17 02:34:01,550 | 20 | Start endpoint /division, args: 5.0, 2.0
