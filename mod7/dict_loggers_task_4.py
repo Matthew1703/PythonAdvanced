@@ -1,4 +1,4 @@
-import logging
+import logging.handlers
 import sys
 
 from multilevel_handler_task3 import MultiLevelHandler
@@ -43,6 +43,12 @@ dict_config = {
             "backupCount": 1,
             "filename": "utils.txt",
             "filters": ["isascii"]
+        },
+        'server_handler': {
+            '()': logging.handlers.HTTPHandler,
+            'host': 'localhost:5000',
+            'url': '/logs',
+            'method': 'POST'
         }
     },
     "loggers": {
@@ -54,6 +60,10 @@ dict_config = {
         "utils": {
             "level": "INFO",
             "handlers": ["time_rotating"]
+        },
+        'server_log': {
+            'level': 'DEBUG',
+            'handlers': ['server_handler']
         }
     }
 }
