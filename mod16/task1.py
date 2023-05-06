@@ -1,8 +1,9 @@
 import sqlite3
 
+ENABLE_FOREIGN_KEY = "PRAGMA foreign_keys = ON;"
+
 
 if __name__ == "__main__":
-    ENABLE_FOREIGN_KEY = "PRAGMA foreign_keys = ON;"
     with sqlite3.connect('hw.db') as conn:
         cursor: sqlite3.Cursor = conn.cursor()
         cursor.executescript("""
