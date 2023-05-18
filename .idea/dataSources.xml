@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="python1.db" uuid="7818d618-0a05-4ff9-9ff9-f810e00ec56f">
+    <data-source source="LOCAL" name="python1" uuid="36bf06ff-5900-4d84-967c-ad9d11cd257d">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/mod20/python1.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\user\Desktop\Общая папка\учеба\PythonAdvanced\mod20\python1.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.40.1/sqlite-jdbc-3.40.1.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>
